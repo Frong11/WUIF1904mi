@@ -80,6 +80,12 @@ body{
 .md .daohang .mdyous i{
     margin-left: 25px;
 }
+.md .daohang .mdzuo span{
+    color: #3D3D3D;
+}
+.md .daohang .mdyou span{
+    color: #3D3D3D;
+}
 .dd{
     width: 100%;
     height: 100px;
@@ -135,10 +141,10 @@ body{
     box-sizing: border-box;
 }
 .et .yin:hover input{
-    border-color: #000;
+    border-color: rgb(176, 176, 176)
 }
 .et .yin:hover  button{
-    border-color: #000;
+    border-color: rgb(176, 176, 176)
 }
 .et .yin .zoukuang{
     display: block;
@@ -219,7 +225,7 @@ body{
     position: absolute;
 }
 .lunbotu .lunbo1 .lunbodian{
-    width: 100px;
+    width: 110px;
     height: 10px;
     position: absolute;
     bottom: 36px;
@@ -232,10 +238,11 @@ body{
     float: left;
     margin: 0px 7px 0px;
     border-radius: 50%;
-    background-color: #B0B0B0;
+    background-color: #6A7786;
+    border: 1px solid #8699B0;
 }
 .lunbotu .lunbodian li:hover{
-    background: #ff9700;
+    background: #DEDEDE;
     cursor: pointer;
 }
 .lunbo2{
@@ -406,6 +413,10 @@ body{
     text-align: center;
     color: #B0B0B0;
     margin-top: 5px;
+    white-space: nowrap;
+    padding:0 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 .box .bottom .tu2 .yuan{
     text-align: center;
@@ -503,8 +514,9 @@ body{
     font-size: 12px;
 }
 .bigyou .you .yc span{
-    color: #757575;
+    color: rgba(255,255,255,0.6);
     font-size: 12px;
+    padding-left: 10px;
 }
 .box2 .you2{
     width: 234px;
@@ -524,6 +536,10 @@ body{
     color: #333333;
     font-size: 14px;
     margin-top: 10px;
+    white-space: nowrap;
+    padding:0 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 .box2 .you pre{
     text-align: center;
@@ -541,12 +557,21 @@ body{
     margin-right: 5px;
 }
 .box2 .you2 p{
-    margin: 40px 0 0 0;
+    width: 94px;
+    height: 21px;
+    margin: 40px 0 0 40px;
+    white-space: nowrap;
+    padding:0 10px;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 .box2 .you2 pre{
-    margin: 10px 0 0 0;
+    width: 94px;
+    height: 21px;
+    margin: 10px 0 0 30px;
     font-size: 14px;
     color: #FF6700;
+    float: left;
 }
 .box .liulan{
     width: 94px;
@@ -562,6 +587,8 @@ body{
     margin-right: 20px;
 }
 .box2 .you3 p{
+    width: 94px;
+    height: 21px;
     margin: 40px 0 0 0;
 }
 .chang1 img{
@@ -626,7 +653,7 @@ body{
 }
 .tuijian  .tui2 .tui22 pre{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: #757575;
 }
 .rp{
@@ -693,6 +720,9 @@ body{
     color: #FF6700;
     font-size: 14px;
 }
+.rp2 .rptu .gang{
+    color: #ECE5E0;
+}
 .neirong{
     width: auto;
     height: 478px;
@@ -721,6 +751,16 @@ body{
     margin-right: 14px;
     margin-bottom: 14px;
     position: relative;
+    border-top: 1px solid #FFAC13;
+}
+.neirong .nrkuai2{
+    border-top: 1px solid #83C44E;
+}
+.neirong .nrkuai3{
+    border-top: 1px solid #E53935;
+}
+.neirong .nrkuai1{
+    border-top: 1px solid #2196F3;
 }
 .neirong .neirong2 .nrkuai:hover{
     transition: 1s;
@@ -737,6 +777,10 @@ body{
     color: #333333;
     margin-top:10px;
     font-size: 20px; 
+    white-space: nowrap;
+    padding:0 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 .neirong2 .wer2{
     height: 34px;
@@ -935,7 +979,8 @@ margin-right: 0;
     border-right: 1px solid#e0e0e0;
 }
 .ddz .dz1 i{
-    font-size: 26px;
+    font-size: 24px;
+    vertical-align: -2px;
 }
 .ddz .dz1:hover{
     color: #ff6700;
@@ -1005,7 +1050,7 @@ margin-right: 0;
 }
 .js{
     width: 1226px;
-    height: 232px;
+    height: 210px;
     padding: 30px 0;
     box-sizing: border-box;
 }
@@ -1017,13 +1062,16 @@ margin-right: 0;
 }
 .js .js2{
     width: 1159px;
-    height: 91px;
     float: left;
     margin-left: 65px;
 }
 .js a{
     font-size: 12px;
     color: #757575;
+}
+.js span{
+    color: #b0b0b0;
+    font-size: 12px;
 }
 .js .js2 .js3{
     font-size: 12px;
@@ -1034,8 +1082,20 @@ margin-right: 0;
     cursor: pointer;
 }
 .js .js3:hover{
-    color:#FF6700;
     cursor: pointer;
+}
+.tb{
+    width: 1226px;
+    height: 28px;
+    background: #F5F5F5;
+    margin-top: 30px;
+    padding: 0 0 0 67px;
+    box-sizing: border-box;
+}
+.tb .tb1{
+    width: 85px;
+    height: 28px;
+    float: left;
 }
 .cdh{
     width: 84px;
