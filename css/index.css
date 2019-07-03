@@ -90,6 +90,7 @@ body{
     width: 100%;
     height: 100px;
     background: #FFFFFF;
+    position: relative;
 }
 .dd2{
     width: 100%;
@@ -105,6 +106,43 @@ body{
     width: 100%;
     height: 770px;
     background: #FFFFFF;
+}
+.dd4 .tz{
+    width: 100%;
+    height: 229px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+}
+.dd4 .tz .tz1{
+    width: 1226px;
+    height: 230px;
+    position: absolute;
+    left: 339px;
+    background: #FFFFFF;
+    display: none;
+    border-top: 1px solid #e0e0e0;
+}
+.dd4 .tz ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dd4 .tz li{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 189px;
+    padding: 35px 12px 0;
+    text-align: center;
+}
+.dd4 .tz li a{
+    display: block;
+    font-size: 12px;
+}
+.dd4 .tz li p{
+    font-size: 12px;
+    color: #ff6700;
 }
 .et{
     width: 1226px;
@@ -132,6 +170,7 @@ body{
 }
 .et .dzi span:hover{
     color: #FF6700;
+    cursor: pointer;
 }
 .et .yin{
     width: 297px;
@@ -188,8 +227,8 @@ body{
     position: relative;
 }
 .lunbotu .lunbo1 .zj{
-    width: 49px;
-    height: 61px;
+    width: 41px;
+    height: 69px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -199,24 +238,34 @@ body{
 .lunbotu .lunbo1 .zj:hover{
     background-color: #757575;
 }
+.lunbotu .lunbo1 .zj:hover i{
+    color: #fff;
+}
+.lunbotu .lunbo1 .yj:hover i{
+    color: #fff;
+}
 .lunbotu .lunbo1 .yj{
-    width: 49px;
-    height: 61px;
+    width: 41px;
+    height: 69px;
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
     right: 0;
 }
-.lunbotu .lunbo1 .zj img{
+.lunbotu .lunbo1 .zj i{
     display: block;
-    margin-top: 15px;
-    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #757575;
+    line-height: 69px;
 }
-.lunbotu .lunbo1 .yj img{
+.lunbotu .lunbo1 .yj i{
     display: block;
-    margin-top: 11px;
-    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #757575;
+    line-height: 69px;
 }
 .lunbotu .lunbo1 .yj:hover{
     background-color: #757575;
@@ -254,6 +303,7 @@ body{
     left: 0;
     padding-top: 20px;
     box-sizing: border-box;
+    /* z-index: 200; */
 }
 .lunbo2 a{
     width: 234px;
@@ -272,6 +322,45 @@ body{
     float: right;
     margin-top: 10px;
     margin-right: 11px;
+}
+.lunbotu .tc{
+    width: 993px;
+    height: 460px;
+    z-index: 100;
+    position: absolute;
+    left: 234px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+.lunbotu .tc .tc1{
+    width: 993px;
+    height: 460px;
+    position: absolute;
+    display: none;
+}
+.lunbotu .tc .tc1 ul{
+    width: 248px;
+    height: 462px;
+    float: left;
+}
+.lunbotu .tc .tc1 ul li{
+    width: 265px;
+    height: 76px;
+    background: #83C44E;
+}
+.lunbotu .tc .tc1  a{
+    display: block;
+    padding: 18px 20px;
+    width: 225px;
+    height: 40px;
+    background: #ffffff;
+    color: #333;
+}
+.lunbotu .tc .tc1 img{
+    vertical-align: middle;
+}
+.lunbotu .tc .tc1  a span{
+    line-height: 40px;
+    font-size: 14px;
 }
 .situ{
     width: 1226px;;
@@ -347,10 +436,21 @@ body{
     background-color: aqua;
     margin: 0 auto;
 }
+.box .tu2 .xp{
+    background-color: #83c44e;
+    width: 64px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
 .box .top{
     width: 1226px;
     height: 58px;
     background-color:#F5F5F5;
+    margin-top: 22PX;
 }
 .box .top .left{
     text-align: center;
@@ -379,7 +479,6 @@ body{
     float: left;
     margin-right: 14px;
     margin-bottom: 14px;
-
 }
 .bottom .tu2:hover{
     transform: translateY(-5px);
@@ -449,6 +548,9 @@ body{
     margin-left: 20px;
     float: right;
 }
+.box2 .top2 .reight2 span{
+    margin-left: 30px;
+}
 .box2 .top2 .reight2 span:hover{
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
@@ -506,12 +608,15 @@ body{
     height: 86px;
     background: #ff6700;
     margin-top: 44px;
-    padding: 5px 30px;
+    padding: 8px 30px;
     box-sizing: border-box;
 }
 .bigyou .you .yc p{
     color: #fff;
     font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 .bigyou .you .yc span{
     color: rgba(255,255,255,0.6);
@@ -590,6 +695,10 @@ body{
     width: 94px;
     height: 21px;
     margin: 40px 0 0 0;
+}
+.chang{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .chang1 img{
     margin-top: 20px;
@@ -700,7 +809,7 @@ body{
 .rp .rp2 .rptu1{
     margin-left: 0
 }
-.rp .rp2 p{
+.rp .rp2 .rptu .baozi p{
     font-size: 14px;
     margin-top: 10px;
     color: #333333;
@@ -927,13 +1036,18 @@ margin-right: 0;
     font-size: 30px;
     color: #fff;
 }
+.sp2 .spt .yrzx{
+    width: 296px;
+    height: 180px;
+    background-color: #ffffff;
+}
+.sp2 .spt .yrzx:hover i{
+    color: #ff6700;
+}
 .sp .sp2 .spt:hover{
     transition: 1s;
     transform: translateY(-5px);
     box-shadow: 0 0 10px 1px #cccccc;
-}
-.sp .sp2 .spt:hover i{
-    color: #ff6700;
 }
 .sp .sp2 .spt1{
     margin-left: 0px;
