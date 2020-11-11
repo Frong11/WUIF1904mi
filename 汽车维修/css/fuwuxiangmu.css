@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.top{
+    width:100%;
+    height:90px;
+    background-color:#000;
+    border-bottom: 1px solid #333333;
+}
+.top .top-center{
+    width:1024px;
+    height:90px;
+    margin:0 auto;
+}
+.top .top-center-log{
+    width:173px;
+    height:52px;
+    margin-top:20px;
+    float: left;
+}
+.top .top-center-log img{
+    width:100%;
+    height:100%;
+}
+.top .top-center .nav{
+    float: right;
+    
+}
+.top .top-center .nav a {
+    margin-right:45px;
+}
+.top .top-center .nav a span{
+    color: #777;
+    font-size: 14px;
+    line-height: 90px;
+
+}
+.top .top-center .nav a span:hover {
+    color:#ff7000;
+}
+.bok{
+    width:1024px;
+    height:300px;
+    margin:40px  auto;
+}
+.hengj{
+    width:1024px;
+    height:120px;
+    margin:0 auto;
+    position: relative;
+    line-height: 100px;
+}
+.hengj{
+    width:1024px;
+    height:120px;
+    margin:0 auto;
+    position: relative;
+    line-height: 100px;
+}
+.hengj .lq{
+    width:500px;
+    height:1px;
+    background-color: #d6d6d6;
+    position: absolute;
+    left:-63px;
+    top:50px;
+}
+.hengj .xian{
+    position: absolute;
+    left:600px;
+    top:50px;
+}
+.hengj .header{
+    text-align: center;
+    font-size: 32px;
+    color:#333333;
+}
+.hengj .subtitle{
+    position: absolute;
+    top:35px;
+    left:470px;
+    color:#a5a5a5;
+}
+.ss{
+    width:1024px;
+    height:303px;
+    margin:0 auto; 
+    padding:1px;
+}
+.ss .qfe_wrapper{
+    width:226px;
+    height:303px;
+    display: inline-block;
+    margin-left:20px;
+}
+.ss .qfe_wrapper .lp{
+    width:226px;
+    height:128px;
+    box-shadow: 2px 2px 2px #666;
+
+}
+.ss .qfe_wrapper .attachment{
+    width:216px;
+    height:120px;
+    margin-left:5px;
+    margin-top:4px;
+}
+.ss .qfe_wrapper .qfy-element{
+    width:226px;
+    height:24px;
+    text-align: center;
+    border-bottom: 1px solid #BCBCBC;
+    margin-top:10px;
+}
+.ss .qfe_wrapper .qfy-element .qfe{
+    font-size: 16px;
+    color:#ff6000;
+}
+.ss .qfe_wrapper .bottob{
+    width:226px;
+    height:150px;
+    line-height: 30px;
+}
+.ss .qfe_wrapper .bottob .qfe-wrapp{
+    font-size: 16px;
+    color:#808080;
+}
+.footer{
+    width:100%;
+    height:400px;
+    background-color: #242424;
+    margin:0 auto;
+    padding:1px;
+}
+.footer .floor{
+    width:1273px;
+    height:360px;
+    margin:0 auto;
+    padding:1px;
+    position: relative;
+}
+.footer .floor .du{
+    width:331px;
+    height:260px;
+    margin-top:20px;
+    margin-left:30px;
+    display: inline-block;
+    float: left;  
+    line-height: 50px; 
+}
+.footer .floor .du .hu{
+    font-size: 14px;
+    color:#ff6000;
+}
+.footer .floor .du .bol{
+    width:331px;
+    height:24px;
+}
+.footer .floor .du .bol .hg{
+    font-size: 14px;
+    color:#696969;
+}
+.footer .floor .du .bol .pp{
+    margin-top:-30px;
+}
+.footer .floor .du .bol .hf{
+    font-size: 14px;
+    color:#696969;
+}
+.footer .floor .du .bol .hh{
+    color:#ff6000;
+}
+.footer .floor .du .bol .GD{
+    font-size: 12px;
+    color:#696969;
+}
+.footer .floor .du .bol .GA{
+    font-size: 12px;
+    color:#696969;
+}
+.footer .floor .dp{
+    width:1024px;
+    height:100px;;
+    position: absolute;
+    bottom:0;
+}

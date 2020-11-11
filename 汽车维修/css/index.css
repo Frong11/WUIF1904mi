@@ -1,0 +1,434 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+@media screen and (max-width:768px) {
+    body
+    .top{
+        width: 100% !important;
+        background: #000 !important;
+        border-bottom: 0.01rem solid #333333 !important;
+    }
+    .top .top-center{
+        width:100% !important;
+        height:9rem !important;
+        margin:0 auto !important;
+    }
+    .top .top-center-log {
+        width: 150px !important;
+        height: 50px !important;
+        margin-top: 20px !important;
+        float: left;
+    }
+    .top .top-center .nav a {
+        margin-right: 15px !important;
+    }
+    .banner {
+        width: 100% !important;
+        height: 18.9rem !important;
+        background-color: #000;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner .center{
+        width:100% !important;
+        height:18.9rem !important;
+        position: relative;
+        margin:0.01rem auto 0 !important;
+        overflow: hidden; 
+    }
+    .banner .banner-left {
+        display: none !important;
+    }
+    .banner .banner-right {
+        display: none !important;
+    }
+    .banner .dot{
+        display: none !important;
+    }
+    .content {
+        width:100% !important;
+    }
+    .content .title{
+        font-size: 0.36rem !important;
+        font-weight: bold !important;
+    }
+    .content .explain{
+        font-size: 0.36rem !important;
+    }
+    .content2{
+        width: 100% !important;
+    }
+    .content2 .data{
+        width: 100% !important;
+    }
+    .content2 .data .style .style1{
+        width: 30% !important;
+    }
+    .content3{
+        width: 100% !important; 
+        font-size: 0.36rem !important;
+        font-weight: bold !important;
+    }
+    .style{
+        width: 100% !important;
+    }
+    .syn{
+        width: 100% !important;
+    }
+    .syn .syn-left{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .syn .syn-right{
+        width: 100% !important;
+    }
+    .bottom .cen{
+        width: 100% !important;
+    }
+    .bottom{
+        margin-top: 350px !important; 
+    }
+}
+.top{
+    width:100%;
+    height:90px;
+    background-color:#000;
+    border-bottom: 1px solid #333333;
+}
+.top .top-center{
+    width:1024px;
+    height:90px;
+    margin:0 auto;
+}
+.top .top-center-log{
+    width:173px;
+    height:52px;
+    margin-top:20px;
+    float: left;
+}
+.top .top-center-log img{
+    width:100%;
+    height:100%;
+}
+.top .top-center .nav{
+    float: right;
+    
+}
+.top .top-center .nav a {
+    margin-right:45px;
+}
+.top .top-center .nav a span{
+    color: #777;
+    font-size: 14px;
+    line-height: 90px;
+
+}
+.top .top-center .nav a span:hover {
+    color:#ff7000;
+}
+.banner{
+    width:100%;
+    height:689px;
+    background-color:#000;
+    position:relative;
+    overflow: hidden;
+
+}
+.banner .center{
+    width:1400px;
+    height:700px;
+    position: relative;
+    margin:10px auto 0;
+    overflow: hidden;
+ 
+}
+.banner .center img{
+    position: absolute;
+    top:0px;
+    left:1400px;
+    display: block;
+    width:100%;
+    height:100%;
+}
+
+.banner .banner-left{
+    position: absolute;
+    left:30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.banner .banner-left .iconfont{
+    color:#fff;
+    font-size:26px;
+    margin-bottom:25px;
+    text-align: center;
+}
+.banner .banner-left:hover.banner-left>.iconfont{
+    transition: .5s;
+    transform:translateY(-52px);
+}
+.banner .banner-right{
+    position: absolute;
+    right:30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    overflow: hidden; 
+}
+.banner .banner-right .iconfont{
+    color:#fff;
+    font-size:26px;
+    margin-bottom:25px;
+    text-align: center;
+}
+.banner .banner-right:hover.banner-right>.iconfont{
+    transition: .5s;
+    transform:translateY(-52px);
+}
+.banner .dot{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:80px;
+    margin:auto;
+    width:122px;
+    height:6px;
+}
+.banner .dot .dot1{
+    width:55px;
+    height:6px;
+    float: left;
+    margin-right:5px;
+    background: #fff;
+}
+.content{
+    width:934px;
+    height:120px;
+    margin: 0 auto;
+}
+.content .title{
+    color:#3E3E3E;
+    font-size:36px;
+    text-align: center;
+    margin-top:20px;
+}
+.content .explain{
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+    margin-top:15px;
+}
+.content2{
+    width:934px;
+    height:343px;
+    margin:50px auto 0;
+}
+.content2 .data{
+    width:23%;
+    height:100%;
+    float: left;
+    margin-right:10px;
+}
+.content2 .data:nth-child(4){
+    margin-right:26px;
+}
+.content2 .data img{
+    display: block;
+    width:128px;
+    height:128px;
+    margin:0 auto;
+}
+.content2 .data .title{
+    width:100%;
+    height:25px;
+    margin-top:20px;
+    font-size:16px;
+    color: #ff6000;
+    text-align: center;
+    font-weight: bold;
+}
+.content2 .data .style{
+    width:100%;
+    height:19px;
+
+}
+.content2 .data .style .style1{
+    width:28%;
+    height:18px;
+    border-bottom: 1px solid #EFEFEF;
+    float: left;
+}
+.content2 .data .style .style1:nth-child(2){
+    border-bottom: 2px solid #BCBCBC;
+    height:17px;
+}
+.content2 .data .style .style1:first-child{
+   margin-left: 20px;
+}
+.content2 .data .text{
+    font-size:14px;
+    color: #808080;
+    margin-top:10px;
+}
+.content3{
+    width:934px;
+    height:43px;
+    text-align: center;
+    font-size:40px;
+    color: #3E3E3E;
+    margin:15px auto 0;
+}
+.style{
+    width:934px;
+    height:70px;
+    margin:0 auto;
+    display: block;
+    margin-top:20px;
+}
+.syn{
+    width:934px;
+    height:217px;
+    margin:20px auto 0;
+}
+.syn .syn-left{
+    width:305px;
+    height:100%;
+    float: left;
+    margin-top:10px;
+}
+.syn .syn-left img{
+    width:100%;
+    height:100%;
+}
+.syn .syn-right{
+    width:590px;
+    height:100%;
+    float: right;
+}
+.syn .syn-right .title{
+    width:100%;
+    height:30px;
+    border-bottom: 1px dashed #EFEFEF;
+}
+.syn .syn-right .title .title-left{
+    float: left;
+    color:#ff7000;
+    font-size:18px;
+    line-height: 35px;
+}
+.syn .syn-right .title .title-right{
+    float: right;
+    color:#ff7000;
+    font-size:12px;
+    margin-top:10px;
+}
+.syn .syn-right .text{
+    font-size: 14px;
+    color: #808080;
+    margin-top:14px;
+    line-height: 25px;
+}
+.syn .syn-right .text2{
+    margin-top:35px;
+}
+.haird{
+    margin-top:100px;
+}
+.haird .haird-left{
+    float: left;
+}
+.haird .haird-right{
+    float: right;
+}
+.haird .haird-left .title2{
+    border-bottom: 1px dashed #C1C1C1;
+    height:38px;
+}
+.haird .haird-left .title2 .title-left{
+    font-size:14px;
+    color:#808080;
+    line-height: 38px;
+}
+.haird .haird-left .title2 .title-right{
+    font-size:12px;
+    color:#c9c9c9;
+}
+.haird .haird-left .title2:hover .title-left{
+    color:red;
+}
+.haird .haird-left .title2:hover .title-right{
+    color:red;
+}
+.bottom{
+    width:100%;
+    height:356px;
+    background:#242424;
+    margin-top:150px;
+    overflow: hidden;
+}
+.bottom .cen{
+    width:1104px;
+    height:100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.bottom .cen .site{
+    margin: 0 auto;
+    text-align: center;
+    width:368px;
+    height:197px;
+    margin-top:40px;
+    margin-bottom:40px;
+    overflow: hidden;
+}
+.bottom .cen .site p{
+    font-size:14px;
+    color:#696969;
+    margin-bottom:10px;
+}
+.bottom .cen .site p:nth-child(1){
+    color:#ff6000;
+    margin-bottom:25px;
+}
+.bottom .cen .site p:nth-child(3) span{
+    color:#ff6000;
+}
+.bottom .cen .site p:nth-child(4){
+    font-size:15px;
+    color:#d3d3d3;
+    margin-top:30px;
+} 
+.bottom .logo{
+    display: block;
+    margin: 0  auto;
+} 
+.bottom  .copy{
+    text-align: center;
+    color:#c6c6c6;
+    font-size:12px;
+    
+}
+.stick .icon-icon8{
+    font-size:30px;
+    color:#fff;
+    cursor: pointer;
+}
+.stick{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    display: none;
+}
